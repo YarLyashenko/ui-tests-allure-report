@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","com.toptal.screening.ShoppingCartTest.addSeveralItemsToCart","17907","Perform multiple searches and add few items to cart"
+"passed","com.toptal.screening.LoginTest.loginFromMainPage","14533","Perform login from main page via pop-up"
+"passed","com.toptal.screening.SearchTest.searchByThreeParameters","10087","Perform search and filter results by three different criteria"
+"passed","com.toptal.screening.ShoppingCartTest.removeItemsFromCart","41538","Add few items to cart and remove some of them, but not all"
+"passed","com.toptal.screening.CheckoutTest.checkoutFlow","21917","Add random item to cart and proceed with checkout up to payment"
+"passed","com.toptal.screening.RegisterTest.registerFromMainPage","7615","Register new customer from main page via pop-up"

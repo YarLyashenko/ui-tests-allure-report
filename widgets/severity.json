@@ -1,0 +1,61 @@
+[ {
+  "uid" : "213964e48cc9cbfd",
+  "name" : "Search by three parameters",
+  "time" : {
+    "start" : 1621525836829,
+    "stop" : 1621525846916,
+    "duration" : 10087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4aeeb471ae8e4ac",
+  "name" : "Register from main page",
+  "time" : {
+    "start" : 1621525829204,
+    "stop" : 1621525836819,
+    "duration" : 7615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "832c5dcdbb50d337",
+  "name" : "Remove multiple items to cart",
+  "time" : {
+    "start" : 1621525864842,
+    "stop" : 1621525906380,
+    "duration" : 41538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe68bec139d52b9f",
+  "name" : "Login from main page",
+  "time" : {
+    "start" : 1621525814657,
+    "stop" : 1621525829190,
+    "duration" : 14533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f920d9b4369e88a9",
+  "name" : "Add multiple items to cart",
+  "time" : {
+    "start" : 1621525846929,
+    "stop" : 1621525864836,
+    "duration" : 17907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6499354718f8c7",
+  "name" : "Checkout process",
+  "time" : {
+    "start" : 1621525792528,
+    "stop" : 1621525814445,
+    "duration" : 21917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

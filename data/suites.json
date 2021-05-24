@@ -1,0 +1,97 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.toptal.screening.CheckoutTest",
+    "children" : [ {
+      "name" : "Checkout process",
+      "uid" : "f6499354718f8c7",
+      "parentUid" : "cf7faf55a283d8324a9edb95bdd32b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525792528,
+        "stop" : 1621525814445,
+        "duration" : 21917
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cf7faf55a283d8324a9edb95bdd32b88"
+  }, {
+    "name" : "com.toptal.screening.LoginTest",
+    "children" : [ {
+      "name" : "Login from main page",
+      "uid" : "fe68bec139d52b9f",
+      "parentUid" : "ed1dd5ea566c5ecd61973741d1a26659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525814657,
+        "stop" : 1621525829190,
+        "duration" : 14533
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ed1dd5ea566c5ecd61973741d1a26659"
+  }, {
+    "name" : "com.toptal.screening.RegisterTest",
+    "children" : [ {
+      "name" : "Register from main page",
+      "uid" : "f4aeeb471ae8e4ac",
+      "parentUid" : "859b4c5aca8ae75f280443618f255b4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525829204,
+        "stop" : 1621525836819,
+        "duration" : 7615
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "859b4c5aca8ae75f280443618f255b4d"
+  }, {
+    "name" : "com.toptal.screening.SearchTest",
+    "children" : [ {
+      "name" : "Search by three parameters",
+      "uid" : "213964e48cc9cbfd",
+      "parentUid" : "62278939f3fd1176923c9753c7782bd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525836829,
+        "stop" : 1621525846916,
+        "duration" : 10087
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "62278939f3fd1176923c9753c7782bd2"
+  }, {
+    "name" : "com.toptal.screening.ShoppingCartTest",
+    "children" : [ {
+      "name" : "Add multiple items to cart",
+      "uid" : "f920d9b4369e88a9",
+      "parentUid" : "93c2f80f07053606c20f3de3263b0c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525846929,
+        "stop" : 1621525864836,
+        "duration" : 17907
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Remove multiple items to cart",
+      "uid" : "832c5dcdbb50d337",
+      "parentUid" : "93c2f80f07053606c20f3de3263b0c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621525864842,
+        "stop" : 1621525906380,
+        "duration" : 41538
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "93c2f80f07053606c20f3de3263b0c3e"
+  } ]
+}

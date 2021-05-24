@@ -1,0 +1,863 @@
+{
+  "uid" : "213964e48cc9cbfd",
+  "name" : "Search by three parameters",
+  "fullName" : "com.toptal.screening.SearchTest.searchByThreeParameters",
+  "historyId" : "b476ed4e1d5b3da0df4b949a936d53de",
+  "time" : {
+    "start" : 1621525836829,
+    "stop" : 1621525846916,
+    "duration" : 10087
+  },
+  "description" : "Perform search and filter results by three different criteria",
+  "descriptionHtml" : "<p>Perform search and filter results by three different criteria</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1621525836830,
+      "stop" : 1621525838579,
+      "duration" : 1749
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page",
+      "time" : {
+        "start" : 1621525836830,
+        "stop" : 1621525838579,
+        "duration" : 1749
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://8a.pl/",
+        "time" : {
+          "start" : 1621525837028,
+          "stop" : 1621525837397,
+          "duration" : 369
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Allow cookies",
+        "time" : {
+          "start" : 1621525837397,
+          "stop" : 1621525838579,
+          "duration" : 1182
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#btn-cookie-allow\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525837397,
+            "stop" : 1621525838460,
+            "duration" : 1063
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"#btn-cookie-allow\") click()",
+          "time" : {
+            "start" : 1621525838460,
+            "stop" : 1621525838579,
+            "duration" : 119
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  }, {
+    "name" : "setUpAllure",
+    "time" : {
+      "start" : 1621525836825,
+      "stop" : 1621525836825,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Perform search and filter results by three different criteria",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Perform product search by okulary",
+      "time" : {
+        "start" : 1621525838579,
+        "stop" : 1621525841483,
+        "duration" : 2904
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"input#search\") should be([visible, enabled])",
+        "time" : {
+          "start" : 1621525838580,
+          "stop" : 1621525838664,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"input#search\") set value(okulary)",
+        "time" : {
+          "start" : 1621525838664,
+          "stop" : 1621525838762,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"input#search\") press enter()",
+        "time" : {
+          "start" : 1621525838763,
+          "stop" : 1621525841483,
+          "duration" : 2720
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "okulary"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "$(\".filters-drawer\") should be(visible)",
+      "time" : {
+        "start" : 1621525841488,
+        "stop" : 1621525841554,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select values {filterValues} in filter tab Typ produktu",
+      "time" : {
+        "start" : 1621525841555,
+        "stop" : 1621525843643,
+        "duration" : 2088
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open filtering tab Typ produktu",
+        "time" : {
+          "start" : 1621525841555,
+          "stop" : 1621525842021,
+          "duration" : 466
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Typ produktu')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+          "time" : {
+            "start" : 1621525841557,
+            "stop" : 1621525841643,
+            "duration" : 86
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\".filter-options-title.findBy(exact text 'Typ produktu')\") get wrapped element()",
+            "time" : {
+              "start" : 1621525841557,
+              "stop" : 1621525841633,
+              "duration" : 76
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Typ produktu')\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525841643,
+            "stop" : 1621525841801,
+            "duration" : 158
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Typ produktu')\") click()",
+          "time" : {
+            "start" : 1621525841801,
+            "stop" : 1621525842021,
+            "duration" : 220
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "tabName",
+          "value" : "Typ produktu"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should be([visible, exact text 'Typ produktu'])",
+        "time" : {
+          "start" : 1621525842021,
+          "stop" : 1621525842102,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filters-drawer\") scroll to()",
+        "time" : {
+          "start" : 1621525842102,
+          "stop" : 1621525842152,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Okulary przeciwsłoneczne')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+        "time" : {
+          "start" : 1621525842152,
+          "stop" : 1621525842215,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Okulary przeciwsłoneczne')\") get wrapped element()",
+          "time" : {
+            "start" : 1621525842152,
+            "stop" : 1621525842197,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Okulary przeciwsłoneczne')\") should be([visible, enabled])",
+        "time" : {
+          "start" : 1621525842216,
+          "stop" : 1621525842300,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Okulary przeciwsłoneczne')\") click()",
+        "time" : {
+          "start" : 1621525842300,
+          "stop" : 1621525842490,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should(not exist)",
+        "time" : {
+          "start" : 1621525842490,
+          "stop" : 1621525843643,
+          "duration" : 1153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "Typ produktu"
+      }, {
+        "name" : "filerValues",
+        "value" : "[Okulary przeciwsłoneczne]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 12,
+      "hasContent" : true
+    }, {
+      "name" : "Select values {filterValues} in filter tab Producent",
+      "time" : {
+        "start" : 1621525843643,
+        "stop" : 1621525845427,
+        "duration" : 1784
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open filtering tab Producent",
+        "time" : {
+          "start" : 1621525843643,
+          "stop" : 1621525843931,
+          "duration" : 288
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Producent')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+          "time" : {
+            "start" : 1621525843643,
+            "stop" : 1621525843702,
+            "duration" : 59
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\".filter-options-title.findBy(exact text 'Producent')\") get wrapped element()",
+            "time" : {
+              "start" : 1621525843643,
+              "stop" : 1621525843693,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Producent')\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525843702,
+            "stop" : 1621525843817,
+            "duration" : 115
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Producent')\") click()",
+          "time" : {
+            "start" : 1621525843817,
+            "stop" : 1621525843931,
+            "duration" : 114
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "tabName",
+          "value" : "Producent"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should be([visible, exact text 'Producent'])",
+        "time" : {
+          "start" : 1621525843932,
+          "stop" : 1621525844010,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filters-drawer\") scroll to()",
+        "time" : {
+          "start" : 1621525844010,
+          "stop" : 1621525844062,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Goggle')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+        "time" : {
+          "start" : 1621525844062,
+          "stop" : 1621525844143,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Goggle')\") get wrapped element()",
+          "time" : {
+            "start" : 1621525844062,
+            "stop" : 1621525844120,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Goggle')\") should be([visible, enabled])",
+        "time" : {
+          "start" : 1621525844144,
+          "stop" : 1621525844252,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Goggle')\") click()",
+        "time" : {
+          "start" : 1621525844253,
+          "stop" : 1621525844434,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should(not exist)",
+        "time" : {
+          "start" : 1621525844435,
+          "stop" : 1621525845427,
+          "duration" : 992
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "Producent"
+      }, {
+        "name" : "filerValues",
+        "value" : "[Goggle]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 12,
+      "hasContent" : true
+    }, {
+      "name" : "Select values {filterValues} in filter tab Płeć",
+      "time" : {
+        "start" : 1621525845427,
+        "stop" : 1621525846779,
+        "duration" : 1352
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open filtering tab Płeć",
+        "time" : {
+          "start" : 1621525845427,
+          "stop" : 1621525845776,
+          "duration" : 349
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Płeć')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+          "time" : {
+            "start" : 1621525845427,
+            "stop" : 1621525845520,
+            "duration" : 93
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\".filter-options-title.findBy(exact text 'Płeć')\") get wrapped element()",
+            "time" : {
+              "start" : 1621525845427,
+              "stop" : 1621525845504,
+              "duration" : 77
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Płeć')\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525845520,
+            "stop" : 1621525845663,
+            "duration" : 143
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".filter-options-title.findBy(exact text 'Płeć')\") click()",
+          "time" : {
+            "start" : 1621525845663,
+            "stop" : 1621525845776,
+            "duration" : 113
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "tabName",
+          "value" : "Płeć"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should be([visible, exact text 'Płeć'])",
+        "time" : {
+          "start" : 1621525845777,
+          "stop" : 1621525845826,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filters-drawer\") scroll to()",
+        "time" : {
+          "start" : 1621525845826,
+          "stop" : 1621525845864,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Unisex')\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+        "time" : {
+          "start" : 1621525845864,
+          "stop" : 1621525845929,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Unisex')\") get wrapped element()",
+          "time" : {
+            "start" : 1621525845864,
+            "stop" : 1621525845916,
+            "duration" : 52
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Unisex')\") should be([visible, enabled])",
+        "time" : {
+          "start" : 1621525845929,
+          "stop" : 1621525846036,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-content[aria-hidden=false] li.item.findBy(exact text 'Unisex')\") click()",
+        "time" : {
+          "start" : 1621525846036,
+          "stop" : 1621525846232,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".filter-options-title[aria-expanded=true]\") should(not exist)",
+        "time" : {
+          "start" : 1621525846232,
+          "stop" : 1621525846779,
+          "duration" : 547
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "Płeć"
+      }, {
+        "name" : "filerValues",
+        "value" : "[Unisex]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 12,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 44,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Y700"
+  }, {
+    "name" : "thread",
+    "value" : "24352@Y700.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.toptal.screening.SearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.toptal.screening.SearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchByThreeParameters"
+  }, {
+    "name" : "suite",
+    "value" : "com.toptal.screening.SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "213964e48cc9cbfd.json",
+  "parameterValues" : [ ]
+}

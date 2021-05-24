@@ -1,0 +1,842 @@
+{
+  "uid" : "f920d9b4369e88a9",
+  "name" : "Add multiple items to cart",
+  "fullName" : "com.toptal.screening.ShoppingCartTest.addSeveralItemsToCart",
+  "historyId" : "3e1cd734a6d721861a89f2cb133df2ce",
+  "time" : {
+    "start" : 1621525846929,
+    "stop" : 1621525864836,
+    "duration" : 17907
+  },
+  "description" : "Perform multiple searches and add few items to cart",
+  "descriptionHtml" : "<p>Perform multiple searches and add few items to cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1621525846929,
+      "stop" : 1621525848284,
+      "duration" : 1355
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page",
+      "time" : {
+        "start" : 1621525846929,
+        "stop" : 1621525848284,
+        "duration" : 1355
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://8a.pl/",
+        "time" : {
+          "start" : 1621525847127,
+          "stop" : 1621525847833,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Allow cookies",
+        "time" : {
+          "start" : 1621525847833,
+          "stop" : 1621525848284,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#btn-cookie-allow\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525847833,
+            "stop" : 1621525847985,
+            "duration" : 152
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"#btn-cookie-allow\") click()",
+          "time" : {
+            "start" : 1621525847985,
+            "stop" : 1621525848284,
+            "duration" : 299
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  }, {
+    "name" : "setUpAllure",
+    "time" : {
+      "start" : 1621525846925,
+      "stop" : 1621525846925,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Perform multiple searches and add few items to cart",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add 2 item(s) to cart by search request 'okulary'",
+      "time" : {
+        "start" : 1621525848284,
+        "stop" : 1621525863900,
+        "duration" : 15616
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Perform product search by okulary",
+        "time" : {
+          "start" : 1621525848284,
+          "stop" : 1621525850834,
+          "duration" : 2550
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"input#search\") should be([visible, enabled])",
+          "time" : {
+            "start" : 1621525848285,
+            "stop" : 1621525848423,
+            "duration" : 138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"input#search\") set value(okulary)",
+          "time" : {
+            "start" : 1621525848423,
+            "stop" : 1621525848524,
+            "duration" : 101
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"input#search\") press enter()",
+          "time" : {
+            "start" : 1621525848524,
+            "stop" : 1621525850834,
+            "duration" : 2310
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "input",
+          "value" : "okulary"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Open random product from current page",
+        "time" : {
+          "start" : 1621525850834,
+          "stop" : 1621525853460,
+          "duration" : 2626
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".product-item-info[4]\") scroll to()",
+          "time" : {
+            "start" : 1621525850927,
+            "stop" : 1621525851015,
+            "duration" : 88
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".product-item-info[4]\") click()",
+          "time" : {
+            "start" : 1621525851016,
+            "stop" : 1621525853460,
+            "duration" : 2444
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Add item to cart",
+        "time" : {
+          "start" : 1621525853460,
+          "stop" : 1621525854197,
+          "duration" : 737
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"button#product-addtocart-button\") should be(visible)",
+          "time" : {
+            "start" : 1621525853460,
+            "stop" : 1621525853605,
+            "duration" : 145
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".swatch-option\") is displayed()",
+          "time" : {
+            "start" : 1621525853605,
+            "stop" : 1621525853764,
+            "duration" : 159
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"button#product-addtocart-button\") should be(enabled)",
+          "time" : {
+            "start" : 1621525853764,
+            "stop" : 1621525853782,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"button#product-addtocart-button\") click()",
+          "time" : {
+            "start" : 1621525853783,
+            "stop" : 1621525854197,
+            "duration" : 414
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Verify confirmation for adding item to cart",
+        "time" : {
+          "start" : 1621525854197,
+          "stop" : 1621525855212,
+          "duration" : 1015
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".product-add-form .message\") should be([visible, exact text 'Produkt został dodany do koszyka.'])",
+          "time" : {
+            "start" : 1621525854197,
+            "stop" : 1621525855212,
+            "duration" : 1015
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".page-title span\") should be(visible)",
+        "time" : {
+          "start" : 1621525855212,
+          "stop" : 1621525855249,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".page-title span\") text()",
+        "time" : {
+          "start" : 1621525855249,
+          "stop" : 1621525855278,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"back\") ",
+        "time" : {
+          "start" : 1621525855279,
+          "stop" : 1621525857465,
+          "duration" : 2186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Open random product from current page",
+        "time" : {
+          "start" : 1621525857465,
+          "stop" : 1621525859651,
+          "duration" : 2186
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".product-item-info[30]\") scroll to()",
+          "time" : {
+            "start" : 1621525857576,
+            "stop" : 1621525857769,
+            "duration" : 193
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".product-item-info[30]\") click()",
+          "time" : {
+            "start" : 1621525857769,
+            "stop" : 1621525859651,
+            "duration" : 1882
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Add item to cart",
+        "time" : {
+          "start" : 1621525859652,
+          "stop" : 1621525860404,
+          "duration" : 752
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"button#product-addtocart-button\") should be(visible)",
+          "time" : {
+            "start" : 1621525859652,
+            "stop" : 1621525859756,
+            "duration" : 104
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\".swatch-option\") is displayed()",
+          "time" : {
+            "start" : 1621525859756,
+            "stop" : 1621525859813,
+            "duration" : 57
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"button#product-addtocart-button\") should be(enabled)",
+          "time" : {
+            "start" : 1621525859813,
+            "stop" : 1621525859853,
+            "duration" : 40
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"button#product-addtocart-button\") click()",
+          "time" : {
+            "start" : 1621525859853,
+            "stop" : 1621525860404,
+            "duration" : 551
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Verify confirmation for adding item to cart",
+        "time" : {
+          "start" : 1621525860405,
+          "stop" : 1621525861634,
+          "duration" : 1229
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".product-add-form .message\") should be([visible, exact text 'Produkt został dodany do koszyka.'])",
+          "time" : {
+            "start" : 1621525860405,
+            "stop" : 1621525861634,
+            "duration" : 1229
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".page-title span\") should be(visible)",
+        "time" : {
+          "start" : 1621525861634,
+          "stop" : 1621525861671,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".page-title span\") text()",
+        "time" : {
+          "start" : 1621525861671,
+          "stop" : 1621525861704,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"back\") ",
+        "time" : {
+          "start" : 1621525861704,
+          "stop" : 1621525863900,
+          "duration" : 2196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "searchRequest",
+        "value" : "okulary"
+      }, {
+        "name" : "itemsCount",
+        "value" : "2"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 30,
+      "hasContent" : true
+    }, {
+      "name" : "Open mini cart",
+      "time" : {
+        "start" : 1621525863900,
+        "stop" : 1621525864543,
+        "duration" : 643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"a.action.showcart\") should be([visible, enabled])",
+        "time" : {
+          "start" : 1621525863900,
+          "stop" : 1621525864086,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"a.action.showcart\") scroll to()",
+        "time" : {
+          "start" : 1621525864086,
+          "stop" : 1621525864139,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"a.action.showcart\") click()",
+        "time" : {
+          "start" : 1621525864139,
+          "stop" : 1621525864543,
+          "duration" : 404
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "$(\".block-minicart/span.count\") should be([visible, exact text '2'])",
+      "time" : {
+        "start" : 1621525864543,
+        "stop" : 1621525864650,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"$$(2 elements)[0]\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+      "time" : {
+        "start" : 1621525864717,
+        "stop" : 1621525864732,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"$$(2 elements)[0]\") get wrapped element()",
+        "time" : {
+          "start" : 1621525864717,
+          "stop" : 1621525864717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"$$(2 elements)[0]\") should be(visible)",
+      "time" : {
+        "start" : 1621525864733,
+        "stop" : 1621525864757,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"$$(2 elements)[0]\") text()",
+      "time" : {
+        "start" : 1621525864757,
+        "stop" : 1621525864779,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"$$(2 elements)[1]\") scroll into view({behavior: \"auto\", block: \"end\", inline: \"end\"})",
+      "time" : {
+        "start" : 1621525864779,
+        "stop" : 1621525864797,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"$$(2 elements)[1]\") get wrapped element()",
+        "time" : {
+          "start" : 1621525864779,
+          "stop" : 1621525864779,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"$$(2 elements)[1]\") should be(visible)",
+      "time" : {
+        "start" : 1621525864797,
+        "stop" : 1621525864816,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"$$(2 elements)[1]\") text()",
+      "time" : {
+        "start" : 1621525864816,
+        "stop" : 1621525864835,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 44,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Y700"
+  }, {
+    "name" : "thread",
+    "value" : "24352@Y700.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.toptal.screening.ShoppingCartTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.toptal.screening.ShoppingCartTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addSeveralItemsToCart"
+  }, {
+    "name" : "suite",
+    "value" : "com.toptal.screening.ShoppingCartTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f920d9b4369e88a9.json",
+  "parameterValues" : [ ]
+}
